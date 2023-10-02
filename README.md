@@ -3,7 +3,7 @@
 This includes an original implementation of "[Modularized Zero-shot VQA with Pre-trained Models][paper]" by Rui Cao, Jing Jiang.
 
 <p align="center">
-  <img src="Mod-Zero-VQA-arch.png" width="80%" height="80%">
+  <img src="Mod-Zero-VQA-arch.PNG" width="80%" height="80%">
 </p>
 
 This code provides:
@@ -58,10 +58,8 @@ To alleviate noisy in input images when prompting PT-VLMs, we detect meme texts 
 ### Step 2: Prompt Frozen PT-VLMs
 We next prompt frozen PT-VLMs with questions and cleaned images to obtain Pro-Cap. You can generate Pro-Cap with our code at [codes/Pro-Cap-Generation.ipynb](codes/Pro-Cap-Generation.ipynb). Or you can alternatively use generated Pro-Cap shared in [codes/Ask-Captions](codes/Ask-Captions).
 
-## Experiments
-<p align="center">
-  <img src="final-results.JPG" width="80%" height="80%">
-</p>
+## Experiments 
+To be done
 
 ### Performance of Models
 Before uploading codes, we re-run the codes. Because of the updating of the versions of transformers package, we observe a small variance compared with the reported performance in the paper. We conclude both the reported results and the re-implemented result in the Figure above. There is no significant difference according to p-value. We share both the re-implemented logger files and the logger files for the reported performance in [codes/logger](codes/logger) and [codes/reported](codes/reporte).
